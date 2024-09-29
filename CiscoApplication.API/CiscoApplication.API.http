@@ -1,0 +1,6 @@
+@CiscoApplication.API_HostAddress = http://localhost:5115
+
+GET {{CiscoApplication.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
